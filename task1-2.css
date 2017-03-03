@@ -1,0 +1,99 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background:lightgray ;
+}
+.top{height: 85px;
+	background: black url(http://ife.baidu.com/2017/asset/common/img/logo_a3b4064.png)   no-repeat scroll;
+	margin-top: 0;
+}
+.top>li{display: inline;
+	float: right;
+	color: white;
+	margin:30px 15px;
+}
+.top a{
+	color: white;
+	}
+
+.p1,.p2,.p3,.p4{
+	background: white;
+	margin:20px;
+    line-height: 200%;
+	text-align: left;
+    padding: 20px;
+    border:2px solid ;
+    border-color:white gray gray white ;
+    
+}
+p{
+	text-indent: 2em;
+	
+}
+.p1 span,.p2 span{
+	margin:20px;
+}
+ul{
+	list-style: none;
+	text-indent: 2em;
+}
+.p3{
+	background: white;
+	margin: 20px;
+	text-indent: none;
+
+}
+
+.p3>div{
+	width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    margin-left:80px ;
+    text-indent:none;
+}
+.p3 img{
+	width: 100px;
+	
+}
+table{
+	width: 100%;
+}
+th{
+	background: black;
+	color: white;
+}
+.right{
+	background: white;
+	margin:20px;
+    line-height: 200%;
+	text-align: left;
+    padding: 20px;
+    border:2px solid ;
+    border-color:white gray gray white ;
+}
+.input1,.input2,.input3,.input4,.input5,.input6,.input7{
+	margin-left: 40%;
+	
+}
+.l1,.l2,.l3,.l4,.l5,.l6,.l7{
+	position:absolute;
+    right:61%;
+     
+            
+}
+em{
+	font-style: normal;
+	color:darkgray ;
+}
+.input8{
+	height: 36px;
+	width: 94%;
+	background:blue ;
+	margin:0 3%;
+	color: white;
+	border-radius:8px;
+	border-color: blue;
+}
+
