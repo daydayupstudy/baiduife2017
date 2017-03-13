@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			body{
+				margin: 0;
+				padding: 0;
+			}
+			#first{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+			}
+			
+			#box{
+				width: 400px;
+				height: 200px;
+				background: #ccc;
+				overflow: hidden;
+				margin-left: -200px;
+				margin-top: -100px;
+			}
+			#box1,#box2{
+				width: 100px;
+				height: 100px;
+				background: #fc0;
+				border-radius: 50%;
+			}
+			#box1{
+				position: relative;
+				left: -50px;
+				top: -50px;
+			}
+			#box2{
+				position: relative;
+				right: -350px;
+				bottom: -50px;
+			}
+			/*#first:before,
+			#first:after {
+  				content: "";
+  				display: table;
+			}
+			#first:after {
+  				clear: both;
+			}
+			#first{
+ 				*zoom: 1;
+				}	*/
+
+		</style>
+	</head>
+	<body>
+		<div id="first">
+			
+			<div id="box">
+					<div id="box1"></div>
+					<div id="box2"></div>
+				
+			</div>
+		</div>
+		
+	</body>
+</html>
